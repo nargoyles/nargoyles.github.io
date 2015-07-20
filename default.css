@@ -97,6 +97,23 @@
 		width: auto;
 	}
 
+	.image-edit
+	{
+		display: block;
+		margin: 0 0 0 0;
+	}
+
+	.image-edit img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+	.image-edit :hover
+	{
+    -webkit-filter: invert(1);
+	}
+
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
