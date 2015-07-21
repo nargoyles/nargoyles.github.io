@@ -111,7 +111,7 @@
 
 	.image-edit :hover
 	{
-    -webkit-filter: invert(1);
+		filter:grayscale(1);
 	}
 
 /*********************************************************************************/
@@ -440,6 +440,21 @@
 	#featured h2
 	{
 		text-align: center;
+	}
+
+	#featured h2 a
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #101a36;
+		text-decoration: none;
+	}
+
+	#featured h2 :hover
+	{
+		text-decoration: underline;
+		color: black;
 	}
 
 	#featured .icon
