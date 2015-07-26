@@ -53,7 +53,7 @@
 
 	.container
 	{
-		width: 1200px;
+		width: 80%;
 		margin: 0px auto;
 	}
 
@@ -100,15 +100,13 @@
 	.image-edit
 	{
 		display: block;
-		margin: 0 0 0 0;
+		margin: auto;
 	}
 
-	.image-edit img
-	{
-		margin: 0 auto;
-		width: auto;
+	.image-edit img {
+		margin: auto;
+		display: inline-block;
 	}
-
 	.image-edit :hover
 	{
 		filter:grayscale(1);
@@ -255,8 +253,9 @@
 
 	#sidebar img {
 	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
+			margin: auto;
+			max-width: 100%;
+			height: auto;
 	}
 
 
@@ -363,7 +362,7 @@
 	#content
 	{
 		float: left;
-		width: 588px;
+		width: 50%;
 	}
 
 	#content .title
@@ -390,7 +389,7 @@
 	#sidebar
 	{
 		float: right;
-		width: 588px;
+		width: 50%;
 	}
 
 /*********************************************************************************/
@@ -473,24 +472,9 @@
 	.column3,
 	.column4
 	{
-		width: 282px;
-	}
-
-	.column1,
-	.column2
-	{
-		float: left;
-		margin-right: 24px;
-	}
-
-	.column3
-	{
-		float: left;
-	}
-
-	.column4
-	{
-		float: right;
+		width: 25%;
+    float: left;
+		text-align: center;
 	}
 
 /*********************************************************************************/
@@ -532,7 +516,7 @@
 	/* Gallery                                                                     */
 	/*********************************************************************************/
 .gallery {
-	 width: 85%;
+	 width: 80%;
 	 margin: auto;
    padding: 0;
    background: #F6F4F3;
@@ -578,8 +562,7 @@
    max-width: 100%;
 	 height: auto;
 	 display: block;
-   margin-left: auto;
-   margin-right: auto;
+   margin: auto;
 }
 
 .boxInner .titleBox {
