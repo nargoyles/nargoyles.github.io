@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tumblr_posts {
+
+}
+.tumblr_post {
+
+}
+.tumblr_title {
+  display: block;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #101a36
+}
+.tumblr_body img {
+
+}
+.read_more_container {
+
+}
+.read_more_container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #101a36;
+}
+
+
+
+.tumblr_quote {
+
+}
+.tumblr_quote p {
+
+}
+.tumblr_source {
+
+}
+
+a {
+    color: #101a36;
+    font-weight: bold;
+    text-decoration: none;
+}

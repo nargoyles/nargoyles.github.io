@@ -51,6 +51,19 @@
 		text-decoration: none;
 	}
 
+	svg *
+	{
+			stroke: #101a36;
+			display: block;
+			margin: auto;
+	}
+
+	#seth
+	{
+
+		width: 100%;
+	}
+
 	.container
 	{
 		width: 80%;
