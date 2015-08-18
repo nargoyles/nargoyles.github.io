@@ -2,7 +2,8 @@
 /* CSS Document */
 
 .tumblr_posts {
-
+  padding-top: 1em;
+  float: left;
 }
 .tumblr_post {
 
