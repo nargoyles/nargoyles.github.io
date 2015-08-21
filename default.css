@@ -66,7 +66,7 @@
 
 	.container
 	{
-		width: 80%;
+		width: 75%;
 		margin: 0px auto;
 	}
 
@@ -375,7 +375,7 @@
 	#content
 	{
 		float: left;
-		width: 50%;
+		width: 47%;
 	}
 
 	#content .title
@@ -402,7 +402,13 @@
 	#sidebar
 	{
 		float: right;
-		width: 50%;
+		width: 47%;
+	}
+
+	#sidebar svg
+	{
+		display: block;
+		margin: auto;
 	}
 
 /*********************************************************************************/
@@ -480,13 +486,20 @@
 		color: #101a36;
 	}
 
-	.column1, .column2, .column3, .column4
+	.column1, .column2, .column3
 	{
-		width: 25%;
+		width: 22%;
     float: left;
 		text-align: center;
+		margin-right: 3%
 	}
 
+.column4
+{
+	width: 22%;
+	float: left;
+	text-align: center;
+}
 /*********************************************************************************/
 /* Portfolio                                                                     */
 /*********************************************************************************/
