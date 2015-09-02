@@ -5,14 +5,15 @@
   padding-top: 1em;
   float: left;
 }
-.tumblr_post {
+.tumblr_post img {
+  margin-bottom: 60px;
 
 }
 .tumblr_title {
   display: block;
   padding-top: 1em;
   padding-bottom: .5em;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 1.5em;
   font-family: 'Source Sans Pro', sans-serif;
   color: #101a36
@@ -21,15 +22,19 @@
 
 }
 .read_more_container {
-
+  margin-bottom: 30px;
 }
+
 .read_more_container a {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
   color: #101a36;
 }
 
+.read_more_container a:hover {
+  font-weight: 700;
+}
 
 
 .tumblr_quote {

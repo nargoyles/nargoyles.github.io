@@ -37,10 +37,6 @@
 		line-height: 180%;
 	}
 
-	strong
-	{
-	}
-
 	a
 	{
 		color: #383838;
@@ -120,18 +116,6 @@
 		margin: auto;
 		display: inline-block;
 	}
-	.image-edit :hover
-	{
-		filter:grayscale(1);
-	}
-
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
-
-	ul.style1
-	{
-	}
 
 
 /*********************************************************************************/
@@ -184,7 +168,7 @@
 	.major
 	{
 		overflow: hidden;
-		margin-bottom: 2em;
+
 		text-align: center;
 	}
 
@@ -250,10 +234,6 @@
 		color: #FFF;
 	}
 
-	.button:before
-	{
-	}
-
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -261,6 +241,9 @@
 	#header
 	{
 		background: #101a36;
+		position:fixed;
+		width: 100%;
+		top: 0;
 	}
 
 
@@ -278,7 +261,8 @@
 
 	#logo
 	{
-		padding: 3em 0em;
+		padding-top: 8em;
+		padding-bottom: 3em;
 		text-transform: uppercase;
 	}
 
@@ -350,14 +334,6 @@
 	}
 
 /*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
-	{
-	}
-
-/*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
 
@@ -411,13 +387,6 @@
 		margin: auto;
 	}
 
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-	#footer
-	{
-	}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
@@ -426,7 +395,7 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 2em 0em;
+		padding: 0em 0em;
 	}
 
 	#copyright p
@@ -455,6 +424,13 @@
 		background: #FFF;
 	}
 
+	#center
+	{
+		text-align: center;
+		margin-top: 2em;
+		margin-bottom: 2em;
+
+	}
 	#featured h2
 	{
 		text-align: center;
@@ -486,154 +462,27 @@
 		color: #101a36;
 	}
 
-	.column1, .column2, .column3
+	.column1, .column2
 	{
-		width: 22%;
+		width: 30%;
     float: left;
 		text-align: center;
 		margin-right: 3%
 	}
 
-.column4
-{
-	width: 22%;
-	float: left;
-	text-align: center;
-}
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-	#portfolio-wrapper
+	.column3
 	{
-		padding: 6em 0em;
-	}
-
-	#portfolio
-	{
-		overflow: hidden;
+		width: 30%;
+		float: left;
 		text-align: center;
 	}
 
-	#portfolio img
-	{
-		margin: 0;
-		padding: 0;
-	}
-
-	#portfolio .box
-	{
-		padding: 30px;
-		background: #FFF;
-		border-bottom: 2px solid #7C7C7C;
-		border-right: 1px solid #DADADA;
-		border-left: 1px solid #DADADA;
-	}
+	/*********************************************************************************/
+	/* Featured                                                                      */
+	/*********************************************************************************/
 
 	#contact
 	{
-		padding: 3em 0;
+		margin-top:2em;
+		margin-bottom:2em;
 	}
-
-	/*********************************************************************************/
-	/* Gallery                                                                     */
-	/*********************************************************************************/
-.gallery {
-	 width: 75%;
-	 margin: auto;
-   padding: 0;
-   background: #F6F4F3;
-	 font-family: 'Source Sans Pro', sans-serif;
-	 font-size: 12pt;
-	 font-weight: 400;
-	 font-variant: small-caps;
-}
-
-.gallery h2 {
-	letter-spacing: 0.10em;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #101a36;
-	font-size: 2em;
-	padding-bottom: 2em;
-}
-.wrap {
-   overflow: hidden;
-   margin: 10px;
-}
-
-.box {
-   float: left;
-   position: relative;
-   width: 20%;
-   padding-bottom: 20%;
-}
-
-.boxInner {
-   position: absolute;
-   left: 10px;
-   right: 10px;
-   top: 10px;
-   bottom: 10px;
-   overflow: hidden;
-	 background-color: white;
-	 border: 2px solid #101a36;
-
-}
-
-.boxInner img {
-   max-width: 100%;
-	 height: auto;
-	 display: block;
-   margin: auto;
-}
-
-.boxInner .titleBox {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin-bottom: -50px;
-   background: #000;
-   background: rgba(0, 0, 0, 0.5);
-   color: white;
-   padding: 10px;
-   text-align: center;
-   -webkit-transition: all 0.3s ease-out;
-   -moz-transition: all 0.3s ease-out;
-   -o-transition: all 0.3s ease-out;
-   transition: all 0.3s ease-out;
-}
-
-body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
-   margin-bottom: 0;
-}
-
-@media only screen and (max-width : 480px) {
-   /* Smartphone view: 1 tile */
-   .box {
-      width: 100%;
-      padding-bottom: 100%;
-   }
-}
-@media only screen and (max-width : 650px) and (min-width : 481px) {
-   /* Tablet view: 2 tiles */
-   .box {
-      width: 50%;
-      padding-bottom: 50%;
-   }
-}
-@media only screen and (max-width : 1050px) and (min-width : 651px) {
-   /* Small desktop / ipad view: 3 tiles */
-   .box {
-      width: 33.3%;
-      padding-bottom: 33.3%;
-   }
-}
-@media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Medium desktop: 4 tiles */
-   .box {
-      width: 25%;
-      padding-bottom: 25%;
-   }
-}
