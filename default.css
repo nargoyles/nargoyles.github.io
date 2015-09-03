@@ -56,7 +56,8 @@
 
 	#seth
 	{
-
+		display: block;
+		margin: auto;
 		width: 100%;
 	}
 
