@@ -295,11 +295,11 @@ Released   : 20130811
     <div id="featured-wrapper">
         <div class="container">
             <div id="projects">
-                <a href="bustemup/bustemup.html" title="Bust Em Up"><h2>Bust Em Up</h2></a>
-                <p>Here is a game I made in Unity. It's a simple block breaking game. I did the music, art, and scripting. This is a web version, so it won't work if you are on mobile.</p>
+                <a onclick="bustemupgame()" title="Bust Em Up"><h2>Bust Em Up</h2></a>
+                <p>Here is a game I made in <a href="https://unity3d.com/" target="_blank" title="Unity">Unity</a>. It's a simple block breaking game. I did the music, art, and scripting. This is a web version, so it won't work if you are on mobile.</p>
             </div>
             <div id="projects">
-                <a href="bustemup/bustemup.html" class="image image-centered"><img src="images/breakemup.png" alt="Bust Em Up" width="200px" height="150px" /></a>
+                <a onclick="bustemupgame()" class="image image-centered"><img src="images/breakemup.png" alt="Bust Em Up" width="200px" height="150px" /></a>
             </div>
         </div>
     </div>
@@ -316,6 +316,12 @@ Released   : 20130811
     <div id="copyright" class="container">
         <p>&copy; Untitled. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
     </div>
+		<script>
+			function bustemupgame() {
+    		var myWindow = window.open("bustemup/bustemup.html", "_blank", "toolbar=no, scrollbars=no, resizable=yes, width=800, height=650");
+    		myWindow.document.write("<p>Use the mouse to move the paddle. If the ball gets stuck in an endless loop, try clicking the left mouse button. Have fun!</p>");
+			}
+		</script>
 </body>
 
 </html>
