@@ -1,10 +1,8 @@
-	html, body
-	{
+html,
+body {
 		height: 100%;
-	}
-
-	body
-	{
+}
+body {
 		margin: 0px;
 		padding: 0px;
 		background: #F6F4F3;
@@ -12,146 +10,81 @@
 		font-size: 12pt;
 		font-weight: 400;
 		color: black;
-	}
-
-
-	h1, h2, h3
-	{
+}
+h1,
+h2,
+h3 {
 		margin: 0;
 		padding: 0;
-	}
-
-	p, ol, ul
-	{
+}
+p,
+ol,
+ul {
 		margin-top: 0;
-	}
-
-	ol, ul
-	{
+}
+ol,
+ul {
 		padding: 0;
 		list-style: none;
-	}
-
-	p
-	{
+}
+p {
 		line-height: 180%;
-	}
-
-	a
-	{
+}
+a {
 		color: #383838;
-	}
-
-	a:hover
-	{
+}
+a:hover {
 		text-decoration: none;
-	}
-
-	svg *
-	{
-			stroke: #101a36;
-			display: block;
-			margin: auto;
-	}
-
-	#seth
-	{
+}
+svg * {
+		stroke: #101a36;
+		display: block;
+		margin: auto;
+}
+#seth {
 		display: block;
 		margin: auto;
 		width: 100%;
-	}
-
-	.container
-	{
+}
+.container {
 		width: 67%;
 		margin: 0px auto;
-	}
-
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
-
-	.image
-	{
+}
+.image {
 		display: inline-block;
-	}
-
-	.image img
-	{
+}
+.image img {
 		display: block;
 		width: 100%;
-	}
-
-	.image-full
-	{
-		display: block;
-		width: 100%;
-		margin: 0 0 0 0;
-	}
-
-	.image-left
-	{
-		float: left;
-		margin: 0 2em 2em 0;
-	}
-
-	.image-centered
-	{
+}
+.image-centered {
 		display: block;
 		margin: 0 0 0 0;
-	}
-
-	.image-centered img
-	{
+}
+.image-centered img {
 		margin: 0 auto;
 		width: auto;
-	}
-
-	.image-edit
-	{
-		display: block;
-		margin: auto;
-	}
-
-	.image-edit img {
-		margin: auto;
-		display: inline-block;
-	}
-
-
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
-
-	ul.contact
-	{
-		overflow:  hidden;
+}
+ul.contact {
+		overflow: hidden;
 		margin: 0em 0 3em 0;
 		padding-top: 1em;
 		text-align: center;
-	}
-
-	ul.contact li
-	{
+}
+ul.contact li {
 		display: inline-block;
 		padding: 0em 0.30em;
 		font-size: 1em;
-	}
-
-	ul.contact li span
-	{
+}
+ul.contact li span {
 		display: none;
 		margin: 0;
 		padding: 0;
-	}
-
-	ul.contact li a
-	{
+}
+ul.contact li a {
 		color: #FFF;
-	}
-
-	ul.contact li a:before
-	{
+}
+ul.contact li a:before {
 		display: inline-block;
 		background: #101a36;
 		width: 40px;
@@ -160,68 +93,40 @@
 		border-radius: 20px;
 		text-align: center;
 		color: #FFFFFF;
-	}
-
-/*********************************************************************************/
-/* Major Styles                                                                  */
-/*********************************************************************************/
-
-	.major
-	{
+}
+.major {
 		overflow: hidden;
-
 		text-align: center;
-	}
-
-	.major h2
-	{
+}
+.major h2 {
 		letter-spacing: 0.10em;
 		text-transform: uppercase;
 		font-size: 3em;
 		font-weight: 700;
 		color: #101a36;
-	}
-
-	.major .byline
-	{
+}
+.major .byline {
 		display: block;
 		padding-top: 0.2em;
 		font-weight: 300;
 		font-size: 2em;
-	}
-
-/*********************************************************************************/
-/* Title Styles                                                                  */
-/*********************************************************************************/
-
-	.title
-	{
+}
+.title {
 		text-align: center;
-	}
-
-	.title h2
-	{
+}
+.title h2 {
 		letter-spacing: 0.10em;
 		text-transform: uppercase;
 		font-weight: 700;
 		color: #101a36;
-	}
-
-	.title .byline
-	{
+}
+.title .byline {
 		display: block;
 		padding-top: 1em;
 		font-weight: 300;
 		font-size: 1.1em;
-	}
-
-
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
-
-	.button
-	{
+}
+.button {
 		display: inline-block;
 		margin: 1em 0em;
 		padding: 1em 3em 1em 3em;
@@ -233,87 +138,38 @@
 		font-weight: 400;
 		font-size: 0.90em;
 		color: #FFF;
-	}
-
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-	#header
-	{
+}
+#header {
 		background: #101a36;
-		position:fixed;
+		position: fixed;
 		width: 100%;
 		top: 0;
-	}
-
-
-	#sidebar img {
-	    display: block;
-			margin: auto;
-			max-width: 100%;
-			height: auto;
-	}
-
-
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
-
-	#logo
-	{
+}
+#sidebar img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+		height: auto;
+}
+#logo {
 		padding-top: 8em;
 		padding-bottom: 3em;
 		text-transform: uppercase;
-	}
-
-	#logo h1
-	{
-		text-align: center;
-		font-weight: 900;
-		font-size: 2.5em;
-	}
-
-	#logo h1 a
-	{
-	}
-
-	#logo span
-	{
-		padding: 0em 0em 0em 0.5em;
-	}
-
-	#logo h1:before
-	{
-
-	}
-
-	#logo a
-	{
+}
+#logo a {
 		color: #101a36;
-	}
-
-
-/*********************************************************************************/
-/* Menu                                                                          */
-/*********************************************************************************/
-
-	#menu ul
-	{
+}
+#menu ul {
 		margin: 0;
 		padding: 20px 0px 20px 0px;
 		list-style: none;
 		line-height: normal;
 		text-align: center;
-	}
-
-	#menu li
-	{
+}
+#menu li {
 		display: inline-block;
-	}
-
-	#menu a
-	{
+}
+#menu a {
 		display: block;
 		padding: 1em 2em;
 		letter-spacing: 1px;
@@ -322,184 +178,115 @@
 		font-size: 1em;
 		font-weight: 700;
 		color: #FFF;
-	}
-
-	#menu .current_page_item a
-	{
+}
+#menu .current_page_item a {
 		font-weight: lighter;
-	}
-
-	#menu a:hover
-	{
+}
+#menu a:hover {
 		text-decoration: underline;
-	}
-
-/*********************************************************************************/
-/* Page                                                                          */
-/*********************************************************************************/
-
-	#page
-	{
+}
+#page {
 		overflow: hidden;
 		padding: 3em 0em;
 		border-top: 1px solid #E5E5E5;
-	}
-
-/*********************************************************************************/
-/* Content                                                                       */
-/*********************************************************************************/
-
-	#content
-	{
+}
+#content {
 		float: left;
 		width: 47%;
-	}
-
-	#content .title
-	{
+}
+#content .title {
 		padding-bottom: 2em;
 		text-align: left;
-	}
-
-	#content h2
-	{
+}
+#content h2 {
 		font-size: 2em;
-	}
-
-	#content .byline
-	{
+}
+#content .byline {
 		padding-top: 0;
 		font-size: 1.5em;
-	}
-
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-	#projects
-	{
-		float:left;
+}
+#projects {
+		float: left;
 		width: 50%;
-	}
-	#projects h2
-	{
+}
+#projects h2 {
 		display: block;
 		padding-top: 1em;
 		padding-bottom: .5em;
 		font-weight: 700;
 		font-size: 1.5em;
 		font-family: 'Source Sans Pro', sans-serif;
-		color: #101a36
-		text-transform: uppercase;
-	}
-
-	#sidebar
-	{
+		color: #101a36 text-transform: uppercase;
+}
+#sidebar {
 		float: right;
 		width: 47%;
-	}
-
-	#sidebar svg
-	{
+}
+#sidebar svg {
 		display: block;
 		margin: auto;
-	}
-
-
-/*********************************************************************************/
-/* Copyright                                                                     */
-/*********************************************************************************/
-
-	#copyright
-	{
+}
+#copyright {
 		overflow: hidden;
 		padding: 0em 0em;
-	}
-
-	#copyright p
-	{
+}
+#copyright p {
 		letter-spacing: 0.20em;
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 0.80em;
 		color: #6F6F6F;
-	}
-
-	#copyright a
-	{
+}
+#copyright a {
 		text-decoration: none;
 		color: #8C8C8C;
-	}
-
-/*********************************************************************************/
-/* Featured                                                                      */
-/*********************************************************************************/
-
-	#featured-wrapper
-	{
+}
+#featured-wrapper {
 		overflow: hidden;
 		padding: 3em 0em;
 		background: #FFF;
-	}
-
-	#center
-	{
+}
+#center {
 		text-align: center;
 		margin-top: 2em;
 		margin-bottom: 2em;
-
-	}
-	#featured h2
-	{
+}
+#featured h2 {
 		text-align: center;
-	}
-
-	#featured h2 a
-	{
+}
+#featured h2 a {
 		letter-spacing: 0.10em;
 		text-transform: uppercase;
 		font-weight: 700;
 		color: #101a36;
 		text-decoration: none;
-	}
-
-	#featured h2 :hover
-	{
+}
+#featured h2 a:hover {
 		text-decoration: underline;
 		color: black;
-	}
-
-	#featured .icon
-	{
+}
+#featured .icon {
 		position: relative;
 		display: block;
 		margin: 0px auto 20px auto;
-		line-height:  normal;
+		line-height: normal;
 		font-size: 6em;
 		text-align: center;
 		color: #101a36;
-	}
-
-	.column1, .column2
-	{
-		width: 30%;
-    float: left;
-		text-align: center;
-		margin-right: 3%
-	}
-
-	.column3
-	{
+}
+.column1,
+.column2 {
 		width: 30%;
 		float: left;
 		text-align: center;
-	}
-
-	/*********************************************************************************/
-	/* Featured                                                                      */
-	/*********************************************************************************/
-
-	#contact
-	{
-		margin-top:2em;
-		margin-bottom:2em;
-	}
+		margin-right: 3%
+}
+.column3 {
+		width: 30%;
+		float: left;
+		text-align: center;
+}
+#contact {
+		margin-top: 2em;
+		margin-bottom: 2em;
+}
