@@ -299,7 +299,7 @@ Released   : 20130811
                 <p>Here is a game I made in <a href="https://unity3d.com/" target="_blank" title="Unity">Unity</a>. It's a simple block breaking game. I did the music, art, and scripting. This is a web version, so it won't work if you are on mobile.</p>
             </div>
             <div id="projects">
-                <a onclick="bustemupgame()" class="image image-centered"><img src="images/breakemup.png" alt="Bust Em Up" width="200px" height="150px" /></a>
+                <a onclick="bustemupgame()" class="image image-project"><img src="images/breakemup.png" alt="Bust Em Up" width="200px" height="150px" /></a>
             </div>
         </div>
     </div>
@@ -310,7 +310,18 @@ Released   : 20130811
                 <p>Here is another little game I made in <a href="https://unity3d.com/" target="_blank" title="Unity">Unity</a>. I made it for mobile, but ported it over just for you. I wanted to see what it would look like to use non-digital art to make a digital game, so I scanned some of my wife's art and put this little diddy together. This is a web version, so it won't work if you are on mobile.</p>
             </div>
             <div id="projects">
-                <a onclick="pumpkindodge()" class="image image-centered"><img src="images/pumpkindodge.png" alt="pumpkindodge" width="200px" height="150px" /></a>
+                <a onclick="pumpkindodge()" class="image image-project"><img src="images/pumpkindodge.png" alt="pumpkindodge" width="200px" height="150px" /></a>
+            </div>
+        </div>
+    </div>
+    <div id="featured-wrapper">
+        <div class="container">
+            <div id="projects">
+                <a onclick="simon()" title="Simon Says"><h2>Simon Says</h2></a>
+                <p>Another <a href="https://unity3d.com/" target="_blank" title="Unity">Unity</a> game. I hadn't done anything in Unity for awhile, so I did this little Simon Says game for fun. There are only audio cues, so it is a little tricky. Maybe I'll add a function to turn on the visual cues as well.</p>
+            </div>
+            <div id="projects">
+                <a onclick="simon()" class="image image-project"><img src="images/simon.png" alt="simonsays" width="200px" height="150px" /></a>
             </div>
         </div>
     </div>
@@ -340,6 +351,10 @@ Released   : 20130811
 
       function pumpkindodge() {
         window.open("pumpkindodge.html", "Pumpkin Dodge", "toolbar=no, scrollbars=no, resizable=yes, width=980, height=620","");
+      }
+
+      function simon() {
+        window.open("SimonWeb.html", "Simon Says", "toolbar=no, scrollbars=no, resizable=yes, width=1920, height=1080","");
       }
 		</script>
     <script>

@@ -61,6 +61,15 @@ svg * {
 		display: block;
 		margin: 0 0 0 0;
 }
+.image-project {
+	display: block;
+	margin: 0 0 0 0;
+	padding-top: 2em;
+}
+.image-project img {
+		margin: 0 auto;
+		width: auto;
+}
 .image-centered img {
 		margin: 0 auto;
 		width: auto;
