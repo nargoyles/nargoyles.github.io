@@ -22,6 +22,14 @@ Released   : 20130811
     <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+        $.getJSON("https://insight.adsrvr.org/track/evnt?fmt=2&callback=foo",function(json){console.log(json);});
+            function foo (json) {
+                console.log(json);
+            }
+
+        </script>
 
     <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
